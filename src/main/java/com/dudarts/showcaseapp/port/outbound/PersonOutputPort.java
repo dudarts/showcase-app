@@ -1,4 +1,7 @@
 package com.dudarts.showcaseapp.port.outbound;
 
-public class PersonOutputPort {
+import com.dudarts.showcaseapp.domain.model.Person;
+
+public interface PersonOutputPort {
+    Person savePerson(Person person);
 }
